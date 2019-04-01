@@ -7,7 +7,14 @@ Run:
 
 ```
 gcc EXERCISE.c -o EXERCISE.exe
+
 ```
+
+Of course, the only ones I really did, as per the instructions, where 01.c
+and 05.c.
+
+The Markdown (.md) files are meant to be read for the answer to its respective
+question.
 
 # Running
 
