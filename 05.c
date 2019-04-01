@@ -107,7 +107,7 @@ void print_primes(Node head) {
 
 // SIGINT handle
 void sigint_handler(int sig) {
-	printf("Calculating, done %%%.2f\n", percent(completition, max));
+	fprintf(stderr, "Calculating, done %%%.2f\n", percent(completition, max));
 }
 
 int main(int argc, char *argv[]) {
