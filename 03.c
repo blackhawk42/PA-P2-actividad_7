@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<signal.h>
 #include<wait.h>
+#include<stdlib.h>
 int val = 10;
 void handler(int sig){    
      val += 5;
